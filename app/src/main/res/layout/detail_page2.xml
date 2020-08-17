@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#DDBEF8"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/hoonwhitecatr"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="팬도로시"
+            android:textColor="#ffffff"
+            android:textSize="60dp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/back_button2"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="5dp"
+            android:src="@drawable/back" />
+
+
+    </FrameLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="546dp"
+        android:fillViewport="true"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            //토마토 치즈 파스타
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:background="@drawable/custom_round_corner_shape1"
+                android:orientation="horizontal">
+
+
+                <ImageView
+                    android:layout_width="140dp"
+                    android:layout_height="140dp"
+                    android:layout_gravity="center"
+                    android:layout_margin="5dp"
+                    android:padding="8dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/tomatopasta" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/hoonwhitecatr"
+                    android:padding="8dp"
+                    android:text="&quot;토마토치즈파스타&quot;\n가격 : 4300원"
+                    android:textSize="40dp" />
+
+
+            </LinearLayout>
+
+            // 크림파스타
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:background="@drawable/custom_round_corner_shape1"
+                android:orientation="horizontal">
+
+
+                <ImageView
+                    android:layout_width="140dp"
+                    android:layout_height="140dp"
+                    android:layout_gravity="center"
+                    android:layout_margin="5dp"
+                    android:padding="8dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/creampasta" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/hoonwhitecatr"
+                    android:padding="8dp"
+                    android:text="&quot;크림 파스타&quot;\n가격 : 4300원"
+                    android:textSize="40dp" />
+
+
+            </LinearLayout>
+
+            // 고르곤졸라 피자
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:background="@drawable/custom_round_corner_shape1"
+                android:orientation="horizontal">
+
+
+                <ImageView
+                    android:layout_width="140dp"
+                    android:layout_height="140dp"
+                    android:layout_gravity="center"
+                    android:layout_margin="5dp"
+                    android:padding="8dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/gorgonzolla" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/hoonwhitecatr"
+                    android:padding="8dp"
+                    android:text="&quot;고르곤졸라 피자&quot;\n가격 : 10500원"
+                    android:textSize="40dp" />
+
+
+            </LinearLayout>
+
+            // 고구마 피자
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:background="@drawable/custom_round_corner_shape1"
+                android:orientation="horizontal">
+
+
+                <ImageView
+                    android:layout_width="140dp"
+                    android:layout_height="140dp"
+                    android:layout_gravity="center"
+                    android:layout_margin="5dp"
+                    android:padding="8dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/sweetpotato" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/hoonwhitecatr"
+                    android:padding="8dp"
+                    android:text="&quot;고구마 피자&quot;\n가격 : 10500원"
+                    android:textSize="40dp" />
+
+
+            </LinearLayout>
+
+            // 체다치즈 피자
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:background="@drawable/custom_round_corner_shape1"
+                android:orientation="horizontal">
+
+
+                <ImageView
+                    android:layout_width="140dp"
+                    android:layout_height="140dp"
+                    android:layout_gravity="center"
+                    android:layout_margin="5dp"
+                    android:padding="8dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/cheeze" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/hoonwhitecatr"
+                    android:padding="8dp"
+                    android:text="&quot;체다치즈 피자&quot;\n가격 : 10500원"
+                    android:textSize="40dp" />
+
+
+            </LinearLayout>
+
+            // 하와이안 피자
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:background="@drawable/custom_round_corner_shape1"
+                android:orientation="horizontal">
+
+
+                <ImageView
+                    android:layout_width="140dp"
+                    android:layout_height="140dp"
+                    android:layout_gravity="center"
+                    android:layout_margin="5dp"
+                    android:padding="8dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/hawaiian" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/hoonwhitecatr"
+                    android:padding="8dp"
+                    android:text="&quot;하와이안 피자&quot;\n가격 : 10500원"
+                    android:textSize="40dp" />
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>
